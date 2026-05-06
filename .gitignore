@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw radar data - do not push
+data/raw_pcaps/
+*.pcap
+*.pcapng
+
+# Large processed data
+data/decoded/
+data/processed/
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Results and generated plots
+results/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+archive/
